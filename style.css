@@ -1,0 +1,89 @@
+.header{
+	width: 100%;
+	text-align: center;
+	font-size: 26px;
+}
+.wrap{
+	width: 1070px;
+	height: 650px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.main{
+	float: left;
+	margin-left:10px;
+	width: 510px;
+	font-size: 26px;
+}
+.sidebar{
+	float: right;
+	width: 510px;
+	font-size: 26px;
+}
+.button{
+	height: 50px;
+	width: 510px;
+	background-color: orange;
+	border: 1px solid orange;
+	border-radius: 7px;
+	text-align: center;
+	font-weight: bold;
+	padding-top: 15px; 
+}
+.callback{
+	text-decoration: none;
+	color: #fff;
+}
+.bottom{
+	width: 1070px;
+	height: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	font-size: 26px;
+}
+.left{
+	float: left;
+	width: 320px;
+	height: 426px;
+}
+.center{
+	display: inline-block;
+	margin-left: 50px;
+	margin-right: auto;
+	width: 320px;
+	height: 426px;
+}
+.right{
+float: right;
+width: 320px;
+height: 426px;
+}
+.button2{
+height: 50px;
+width: 320px;
+background-color: orange;
+border:1px solid orange;
+border-radius: 7px;
+text-align: center;;
+font-weight: bold;
+padding-top: 15px;
+}
+.footer{
+	width: 600px;
+	margin-top: 40px;
+	text-align: center;
+	font-size: 26px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.button3{
+	height: 50px;
+	width: 600px;
+	background-color: orange;
+	border: 1px solid orange;
+	border-radius: 7px;
+	text-align: center;
+	font-weight: bold;
+	padding-top: 15px;
+}
