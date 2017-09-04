@@ -1,7 +1,22 @@
+body{
+	background-color: #d1d1d1;
+}
+.backwall{
+	width: 	1280px;
+	height: 2300px;
+	background-color: #fff;
+}
 .header{
-	width: 100%;
-	text-align: center;
+	width: 1070px;
 	font-size: 26px;
+}
+.friend{
+	text-align: center;
+}
+.content{
+	width: 850px;
+	margin-left: auto;
+	margin-right:auto; 
 }
 .wrap{
 	width: 1070px;
@@ -20,11 +35,14 @@
 	width: 510px;
 	font-size: 26px;
 }
+.sidetext{
+	width: 400px;
+}
 .button{
 	height: 50px;
 	width: 510px;
-	background-color: orange;
-	border: 1px solid orange;
+	background-color: red;
+	border: 1px solid red;
 	border-radius: 7px;
 	text-align: center;
 	font-weight: bold;
@@ -59,31 +77,37 @@ float: right;
 width: 320px;
 height: 426px;
 }
+.smalltext{
+	width: 280px;
+}
 .button2{
 height: 50px;
 width: 320px;
-background-color: orange;
-border:1px solid orange;
+background-color: red;
+border:1px solid red;
 border-radius: 7px;
 text-align: center;;
 font-weight: bold;
 padding-top: 15px;
 }
 .footer{
-	width: 600px;
+	width: 1070px;
 	margin-top: 40px;
-	text-align: center;
 	font-size: 26px;
-	margin-left: auto;
-	margin-right: auto;
+	font-weight: lighter;
 }
 .button3{
 	height: 50px;
 	width: 600px;
-	background-color: orange;
-	border: 1px solid orange;
+	background-color: red;
+	border: 1px solid red;
 	border-radius: 7px;
 	text-align: center;
 	font-weight: bold;
 	padding-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.footertext{
+	width: 350px;
 }
