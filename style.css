@@ -1,113 +1,68 @@
 body{
-	background-color: #d1d1d1;
+	margin: 0;
+	padding: 0;
+	background: #d1d1d1;
 }
-.backwall{
-	width: 	1280px;
-	height: 2300px;
-	background-color: #fff;
+
+.container{
+	width: 640px;
+	margin: 60px auto;
+	background: #fff;
 }
-.header{
-	width: 1070px;
-	font-size: 26px;
+
+img{
+	width: 100%;
 }
-.friend{
-	text-align: center;
-}
-.content{
-	width: 850px;
-	margin-left: auto;
-	margin-right:auto; 
-}
-.wrap{
-	width: 1070px;
-	height: 650px;
-	margin-left: auto;
-	margin-right: auto;
-}
+
 .main{
-	float: left;
-	margin-left:10px;
-	width: 510px;
-	font-size: 26px;
+	padding: 50px;
 }
-.sidebar{
-	float: right;
-	width: 510px;
-	font-size: 26px;
-}
-.sidetext{
-	width: 400px;
-}
-.button{
-	height: 50px;
-	width: 510px;
-	background-color: red;
-	border: 1px solid red;
-	border-radius: 7px;
+
+.text-center{
 	text-align: center;
-	font-weight: bold;
-	padding-top: 15px; 
 }
-.callback{
-	text-decoration: none;
+
+.half-col, .third-col{
+	width: 255px;
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+
+.third-col{
+	width: 160px;
+}
+
+.third-col p{
+	min-height: 72px;
+}
+
+.marginr-0{
+	margin-right: 0;
+}
+
+button{
+	width: 100%;
+	border-radius: 5px;
+	background: #cf5b4e;
+	color: #fff;
+	text-align: center;
+	border: 1px solid #cf5b4e;
+	font-weight: 900;
+	padding: 10px;
+	height: 40px;
+}
+
+.cl-white{
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+.cl-white a{
 	color: #fff;
 }
-.bottom{
-	width: 1070px;
-	height: 600px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 20px;
-	font-size: 26px;
+.facebook{
+	margin-top: 50px;
 }
-.left{
-	float: left;
-	width: 320px;
-	height: 426px;
-}
-.center{
-	display: inline-block;
-	margin-left: 50px;
-	margin-right: auto;
-	width: 320px;
-	height: 426px;
-}
-.right{
-float: right;
-width: 320px;
-height: 426px;
-}
-.smalltext{
-	width: 280px;
-}
-.button2{
-height: 50px;
-width: 320px;
-background-color: red;
-border:1px solid red;
-border-radius: 7px;
-text-align: center;;
-font-weight: bold;
-padding-top: 15px;
-}
-.footer{
-	width: 1070px;
-	margin-top: 40px;
-	font-size: 26px;
-	font-weight: lighter;
-}
-.button3{
-	height: 50px;
-	width: 600px;
-	background-color: red;
-	border: 1px solid red;
-	border-radius: 7px;
-	text-align: center;
-	font-weight: bold;
-	padding-top: 15px;
-	margin-left: auto;
-	margin-right: auto;
-}
-.footertext{
-	width: 350px;
-}
+
+
